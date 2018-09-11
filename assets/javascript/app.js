@@ -2,14 +2,15 @@
 // Create Timer
 
 // Time to do the whole quiz
-setTimeout(endQuiz, 1000 * 20);
+
+
+
+(function() {
+  setTimeout(endQuiz, 1000 * 20);
 function endQuiz(){
     /* $("div").hide(); */
     alert("Quiz is over! You scored" + numCorrect + " questions right.");
 }
-
-
-(function() {
     function buildQuiz() {
       
       const output = [];
